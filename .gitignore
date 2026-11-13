@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# IDEs
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated validation results
+tests/validation-results/*
+!tests/validation-results/.gitkeep
+
+# Sensitive information
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.yaml
+credentials.json
