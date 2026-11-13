@@ -61,7 +61,7 @@ Each detection will follow a consistent engineering process:
 
 | Platform | Implementation |
 |---|---|
-| Elastic Security | KQL and ES|QL |
+| Elastic Security | KQL and ES\|QL |
 | ArcSight ESM | Filters and correlation rules |
 
 Detection specifications are maintained independently of platform-specific implementations to support portability and maintainability.
