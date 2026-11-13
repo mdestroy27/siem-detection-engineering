@@ -24,7 +24,7 @@ The project demonstrates a structured approach to detection engineering, coverin
 |---|---|
 | Elastic Security | SIEM detection implementation |
 | KQL | Elastic query-based detection |
-| ES|QL | Elastic event analysis and correlation |
+| ES\|QL | Elastic event analysis and correlation |
 | ArcSight ESM | SIEM filtering and correlation |
 | MITRE ATT&CK | Adversary technique mapping |
 | Python | Detection engineering automation |
@@ -88,10 +88,35 @@ All detection scenarios, datasets, and examples are developed independently. No 
 
 ## Author
 
-Independent SIEM and Detection Engineering Portfolio.
+**Marty Brou**
+Cybersecurity Professional | Detection Engineer | SIEM & Security Operations
 
-**Focus:** Detection Engineering | SIEM | Elastic Security | ArcSight | Security Analytics
+GitHub: [@mdestroy27](https://github.com/mdestroy27)
+
+### Professional Background
+
+- 8 years of Security Operations Center (SOC) experience.
+- 7 years of hands-on ArcSight SIEM experience.
+- Development and maintenance of 50+ security detection use cases.
+- Experience in SIEM architecture, log parsing, integrations, correlation rules and SOC automation.
+- Hands-on experience with multiple SIEM, EDR/XDR and Cloud Security platforms.
+- Currently expanding expertise in Elastic Security and cross-platform detection engineering.
+
+### Security Technologies
+
+| Domain | Technologies |
+|---|---|
+| SIEM | ArcSight ESM, Elastic Security |
+| EDR / XDR | Microsoft Defender for Endpoint, HarfangLab |
+| Cloud Security | Wiz |
+| Automation & Scripting | Python, Bash |
+| Operating Systems | Linux, Windows |
+| Threat Detection | MITRE ATT&CK, Detection Engineering |
+
+### Areas of Interest
+
+Detection Engineering | SIEM Architecture | Security Analytics | Threat Detection | Cloud Security | SOC Automation
 
 ---
 
-*This repository is continuously evolving as new detection scenarios, implementations, and validation capabilities are developed.*
+*This repository represents independent technical work and professional development. All examples are independently developed using synthetic or publicly available data.*
