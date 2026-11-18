@@ -1,0 +1,12 @@
+event.code: ("4728" or "4732" or "4756") and
+winlog.event_data.TargetUserName: (
+  "Domain Admins" or
+  "Enterprise Admins" or
+  "Schema Admins" or
+  "Administrators" or
+  "Backup Operators" or
+  "Account Operators"
+) and
+not winlog.event_data.SubjectUserName: "svc_identity_sync" and
+not ad.member.canonical: "EXAMPLE\\breakglass" and
+not winlog.event_data.TargetUserName: "Backup Operators"

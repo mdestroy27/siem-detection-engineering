@@ -34,14 +34,18 @@ The project demonstrates a structured approach to detection engineering, coverin
 ## Repository Structure
 
 ```text
-detections/       Detection specifications and SIEM implementations
-datasets/         Synthetic security logs and schemas
-tests/            Positive and negative detection tests
-mitre/            MITRE ATT&CK coverage and analysis
-scripts/          Python automation and validation
-documentation/    Engineering methodology and technical guides
-templates/        Reusable detection templates
+detections/
+  specifications/       Vendor-neutral detection specifications
+  elastic/kql/          Elastic KQL detections and exception guidance
+  elastic/esql/         Elastic ES|QL detections
+  arcsight/             ArcSight filters and rule conditions
+datasets/
+  events/               Synthetic event data (JSONL)
+  whitelists/           Independent allowlists used by detections
+mitre/                  MITRE ATT&CK references and coverage
 ```
+
+Each detection's specification describes the behavior independently of a SIEM. Platform-specific rule logic is stored under the relevant platform directory; synthetic events and allowlists are kept separately under `datasets/`.
 
 ## Detection Engineering Methodology
 
@@ -68,17 +72,7 @@ Detection specifications are maintained independently of platform-specific imple
 
 ## Testing and Validation
 
-Detection logic will be evaluated using synthetic datasets and controlled test scenarios.
-
-Validation will cover:
-
-- Expected detection behavior.
-- Negative test scenarios.
-- Required telemetry availability.
-- False-positive considerations.
-- Detection limitations and tuning requirements.
-
-Implementation and validation status will be explicitly documented.
+Synthetic events under `datasets/events/` illustrate expected alert and non-alert behavior. Allowlist examples under `datasets/whitelists/` are reference data; SIEM rules must be configured to evaluate the applicable lists. Validate field mappings and rule behavior in the target SIEM before deployment.
 
 ## Project Scope
 

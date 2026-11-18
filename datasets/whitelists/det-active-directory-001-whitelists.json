@@ -1,0 +1,5 @@
+{
+  "source_accounts": ["svc_identity_sync"],
+  "target_accounts": ["EXAMPLE\\breakglass"],
+  "target_groups": ["Backup Operators"]
+}
