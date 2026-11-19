@@ -37,6 +37,7 @@ The project demonstrates a structured approach to detection engineering, coverin
 detections/
   specifications/       Vendor-neutral detection specifications
   elastic/kql/          Elastic KQL detections and exception guidance
+  elastic/eql/          Elastic EQL event-correlation detections
   elastic/esql/         Elastic ES|QL detections
   arcsight/             ArcSight filters and rule conditions
 datasets/
